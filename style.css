@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Russo One', sans-sarif;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(img/marslander.jpg) no-repeat 50% 50%;
+	display: table;
+	top: 0;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding-bottom: 30%;
+}
+.content h1 {
+	font-size: 450%;
+	color: #FAEBD7;
+	text-shadow: 3px 3px #8B4513;
+}
+.btn {
+	font-size: 200%;
+	text-shadow: 3px 3px #8B4513;
+	color: #FAEBD7;
+	text-decoration: none;
+	border: 2px solid #cdc9c9;
+	border-radius: 10px;
+	padding: 10px 20px;
+	box-shadow: 2px 2px 1px #8B4513;
+}
+.btn:hover {
+	color: 	#cdaf95;
+	border: 2px solid #cdaf95;
+}
+p {
+	font-size: 120%;
+	line-height: 190%;
+	text-align: justify;
+	margin: 4%;
+	color: #696969;
+}
+
+@media (max-width: 768px) {
+	.content h1 {
+		font-size: 300%;
+	}
+	.btn {
+		font-size: 150%;
+		padding: 7px 15px;
+	}
+	p {
+		font-size: 100%;
+		line-height: 170%;
+	}
+}
